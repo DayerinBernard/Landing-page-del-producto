@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zapatillas de Fútbol ProStrike</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header id="header">
+    <div class="logo-container">
+      <img id="header-img" src="https://i.pinimg.com/736x/bf/90/0d/bf900dc4cf5944d7aee5f58afebd0e45.jpg" />
+      <h1 class="brand-name">ProStrike</h1>
+    </div>
+    <nav id="nav-bar">
+      <a class="nav-link" href="#caracteristicas">Características</a>
+      <a class="nav-link" href="#modelos">Precios</a>
+      <a class="nav-link" href="#video-demo">Video</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="titulo-eslogan" class="section">
+      <h2>Zapatillas ProStrike</h2>
+      <p>Las Zapatillas ProStrike están diseñadas para que lleves tu juego al siguiente nivel. Cada detalle está pensado para optimizar tu rendimiento en el campo.</p>
+    </section>
+
+    <section id="caracteristicas" class="section">
+      <div class="feature-container">
+        <div class="features">
+          <h3>Ultraligeras</h3>
+          <p>Con ProStrike, la velocidad nunca será un problema. Siente cómo tu agilidad mejora sin sacrificar la comodidad.</p>
+
+          <h3>Diseño Aerodinámico</h3>
+          <p>Cada paso será más rápido y preciso, reduciendo la resistencia para un impulso extra en cada carrera.</p>
+
+          <h3>Tracción Imparable</h3>
+          <p>Con una suela que se adapta a cualquier superficie, mantén el control total en todo momento. Evita resbalones y juega con confianza.</p>
+
+          <h3>Inspiración Profesional</h3>
+          <p>La misma tecnología que usan los mejores futbolistas del mundo, ahora disponible para ti. Siente la diferencia en cada jugada.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="formulario" class="section">
+      <h2>Recibe noticias y promociones</h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+        <input 
+          type="email" 
+          id="email" 
+          name="email" 
+          placeholder="Ingresa tu correo electrónico" 
+          required 
+        />
+        <input type="submit" id="submit" value="Quiero estar al tanto" />
+      </form>
+    </section>
+
+    <section id="video-demo" class="section">
+      <h2>En acción</h2>
+      <iframe 
+        id="video" 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/GxE1RP7XD0Y" 
+        title="Video zapatillas de fútbol" 
+        frameborder="0" 
+        allowfullscreen>
+      </iframe>
+    </section>
+  </main>
+
+  <section id="modelos" class="section pricing">
+    <h2>Modelos disponibles</h2>
+    <div class="cards-container">
+      <div class="card">
+        <div class="card-header">PROSTRIKE VELOCITY</div>
+        <div class="price">$120</div>
+        <p>Ultraligeras</p>
+        <p>Diseño aerodinámico</p>
+        <p>Gran tracción en césped</p>
+        <p>Diseño profesional</p>
+        <button class="select-btn">SELECCIONAR</button>
+      </div>
+      <div class="card">
+        <div class="card-header">PROSTRIKE CONTROL</div>
+        <div class="price">$150</div>
+        <p>Estabilidad total</p>
+        <p>Refuerzo en empeine</p>
+        <p>Antideslizantes</p>
+        <p>Excelente para mediocampistas</p>
+        <button class="select-btn">SELECCIONAR</button>
+      </div>
+      <div class="card">
+        <div class="card-header">PROSTRIKE POWER</div>
+        <div class="price">$180</div>
+        <p>Mayor amortiguación</p>
+        <p>Golpes más potentes</p>
+        <p>Suela doble capa</p>
+        <p>Ideal para delanteros</p>
+        <button class="select-btn">SELECCIONAR</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ProStrike Fútbol. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
